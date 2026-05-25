@@ -1,0 +1,27 @@
+# Terraform state — never commit
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Terraform working directory
+.terraform/
+
+# Variable files with secrets — never commit
+*.tfvars
+*.tfvars.json
+
+# Lock file for tfvars
+*.tflock
+
+# Provisioner output files
+instance_ips.txt
+environment_log.txt
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
