@@ -8,7 +8,7 @@ terraform {
   }
   backend "s3" {
     bucket       = "luismena-terraform-state"
-    key          = "p2-vpc-ec2/terraform.tfstate"
+    key          = "p4-ecs/terraform.tfstate"
     region       = "us-east-1"
     encrypt      = true
     use_lockfile = true
