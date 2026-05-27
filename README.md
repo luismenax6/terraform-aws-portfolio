@@ -10,16 +10,16 @@ Each project builds on the previous one, covering all exam topics through real A
 | Project | Topic | Status |
 |---------|-------|--------|
 | [P1 — Terraform Fundamentals](#p1--terraform-fundamentals) | Language core | ✅ Done |
-| [P2 — VPC + EC2](#p2--vpc--ec2-variables--data-sources) | Variables & data sources | 🔄 In progress |
-| [P3 — 3-Tier App](#p3--3-tier-app-modules--remote-state) | Modules + remote state | ⬜ Pending |
-| [P4 — ECS Fargate](#p4--ecs-fargate-state-management--workspaces) | State management + workspaces | ⬜ Pending |
-| [P5 — Landing Zone](#p5--landing-zone-multi-account--hcp-terraform) | Multi-account + HCP Terraform | ⬜ Pending |
+| [P2 — VPC + EC2](#p2--vpc--ec2-variables--data-sources) | Variables & data sources | ✅ Done |
+| [P3 — 3-Tier App](#p3--3-tier-app-modules--remote-state) | Modules + remote state | ✅ Done |
+| [P4 — ECS Fargate](#p4--ecs-fargate-state-management--workspaces) | State management + workspaces | ✅ Done |
+| [P5 — Landing Zone](#p5--landing-zone-multi-account--hcp-terraform) | Multi-account + HCP Terraform | ✅ Done |
 
 ---
 
 ## Prerequisites
 
-- Terraform >= 1.10
+- Terraform >= 1.15.3
 - AWS CLI configured (`aws sts get-caller-identity`)
 - AWS account with permissions to create EC2, S3, VPC, IAM resources
 - S3 bucket `luismena-terraform-state` (shared state backend)
