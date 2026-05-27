@@ -25,3 +25,5 @@ environment_log.txt
 .idea/
 .vscode/
 *.swp
+
+CLAUDE.md
